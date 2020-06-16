@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^2.5.1",
+    "clean-webpack-plugin": "^0.1.16"
+  },
+  "scripts": {
+    "webpack-script": "webpack"
+  },
+  "-vs-binding": {
+    "BeforeBuild": [
+      "webpack-script"
+    ]
+  },
+  "dependencies": {
+    "mymathts16": "1.0.0",
+    "orgchart1": "^1.0.0"
+  }
+}
